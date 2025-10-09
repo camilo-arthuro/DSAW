@@ -8,8 +8,11 @@ def is_anagram(first_word, second_word):
 
 a_anagram = "stop"
 b_anagram = "tops"
-answer_anagram = is_anagram(a_anagram, b_anagram)
-print(f"Are {a_anagram} and {b_anagram} anagrams? {answer_anagram}")
+c_anagram = "stoop"
+answer_anagram_a_b = is_anagram(a_anagram, b_anagram)
+answer_anagram_a_c = is_anagram(a_anagram, c_anagram)
+print(f"Are {a_anagram} and {b_anagram} anagrams? {answer_anagram_a_b}")
+print(f"Are {a_anagram} and {c_anagram} anagrams? {answer_anagram_a_c}")
 
 print("9.15.3. Exercise")
 # Write a function called is_palindrome that takes a string argument
