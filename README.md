@@ -33,6 +33,7 @@ Write a function called total_length that takes a list of strings and returns th
 
 ### 11.11.2. Exercise
 Write a line of code that appends the value 6 to the end of the second list in t. If you display t, the result should be ([1, 2, 3], [4, 5, 6]).
+Try to create a dictionary that maps from t to a string, and confirm that you get a TypeError.
 
 ![Exercise 11.11.2](dsaw_be/img/exercise_11_11_2.jpg)
 
@@ -40,3 +41,18 @@ Write a line of code that appends the value 6 to the end of the second list in t
 Write a function called shift_word that takes as parameters a string and an integer, and returns a new string that contains the letters from the string shifted by the given number of places.
 
 ![Exercise 11_11_3](dsaw_be/img/exercise_11_11_3.jpg)
+
+### 10.11.3. Exercise
+Write a function named has_duplicates that takes a sequence – like a list or string – as a parameter and returns True if there is any element that appears in the sequence more than once.
+
+![Exercise 10.11.3](dsaw_be/img/exercise_10_11_3.jpg)
+
+### 10.11.4. Exercise 
+Write a function called find_repeats that takes a dictionary that maps from each key to a counter, like the result from value_counts. It should loop through the dictionary and return a list of keys that have counts greater than 1. You can use the following outline to get started.
+
+![Exercise 10.11.4](dsaw_be/img/exercise_10_11_4.jpg)
+
+### 10.11.5. Exercise
+Write a function called add_counters that takes two dictionaries like this and returns a new dictionary that contains all of the letters and the total number of times they appear in either word. 
+
+![Exercise 10.11.5](dsaw_be/img/exercise_10_11_5.jpg)
